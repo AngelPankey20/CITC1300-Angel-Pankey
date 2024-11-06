@@ -36,6 +36,10 @@ body {
     text-shadow: 2px 2px 2px rgb(58, 185, 194);
 }
 
+.heading_styletwo {
+    text-shadow: 2px 2px 2px rgb(41, 218, 28);
+}
+
 img {
     display: block;
     margin: 0 auto;
