@@ -5,6 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Don't Starve Together: Links and Videos</title>
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/jpg" href="images/favicon.jpg">
+  <style>
+    .video-wrapper {
+      position: relative;
+      padding-bottom: 56.25%; /* 16:9 ratio */
+      height: 0;
+      overflow: hidden;
+    }
+    .video-wrapper iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  </style>
 </head>
 <body>
   <div id="container">
@@ -53,29 +69,47 @@
         <h2 class="heading_style">Featured Videos</h2>
         
         <article>
-          <h3 class="heading_styletwo">Fighting every boss</h3>
-          <iframe width="560" height="315" src="https://www.youtube.com/watch?v=u9awwJYa-6o&t=1082s" title="Speedrunning ALL Bosses as NEW Wigfrid!" allowfullscreen></iframe>
-          <p>This video should give you an example of what bosses you might encounter and those that didn't make the cut in my webpage.</p>
+          <h3 class="heading_styletwo">Fighting Every Boss</h3>
+          <div class="video-wrapper">
+            <iframe src="https://www.youtube.com/embed/u9awwJYa-6o?start=1082" 
+              title="Speedrunning ALL Bosses as NEW Wigfrid!" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen>
+            </iframe>
+          </div>
+          <p>This video provides an overview of various bosses you may encounter, highlighting strategies and challenges.</p>
         </article>
         <hr>
-
+      
         <article>
-          <h3 class="heading_styletwo">Game into for Don't Starve Together</h3>
-          <iframe width="560" height="315" src="https://www.youtube.com/watch?v=tAjbOJBfk5U" title="Don't Starve Together - A New Reign Cinematic" allowfullscreen></iframe>
-          <p>A deep dive into strategies for tackling the game's toughest bosses, including the Ancient Fuelweaver and Bee Queen.</p>
+          <h3 class="heading_styletwo">Game Intro for Don't Starve Together</h3>
+          <div class="video-wrapper">
+            <iframe src="https://www.youtube.com/embed/tAjbOJBfk5U" 
+              title="Don't Starve Together - A New Reign Cinematic" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen>
+            </iframe>
+          </div>
+          <p>An official cinematic offering insights into the story and challenges of *Don't Starve Together*.</p>
         </article>
         <hr>
-
+      
         <article>
-          <h3 class="heading_styletwo">Back to the original game</h3>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/Kr9CvLw-K-E" title="How it all started" allowfullscreen></iframe>
-          <p>Tips and tricks for surviving with friends, including resource sharing, role assignments, and boss coordination.</p>
+          <h3 class="heading_styletwo">Back to the Original Game</h3>
+          <div class="video-wrapper">
+            <iframe src="https://www.youtube.com/embed/fXP4_2qRHng" 
+              title="How It All Started" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen>
+            </iframe>
+          </div>
+          <p>Discover the origins of Don’t Starve and how it evolved into its multiplayer counterpart.</p>
         </article>
         <hr>
-      </section>
+      </section>      
     </main>
     <footer>
-      © 2024 Don't Starve Together Links and Videos Page
+      © 2024 Don't Starve Together Project Page
     </footer>
   </div>
 </body>
