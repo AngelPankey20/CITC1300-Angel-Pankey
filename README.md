@@ -6,5 +6,5 @@
     <li><a href="adv_css/index.html" target="_blank">Advanced CSS</a></li>
     <li><a href="Intro_to_html/index.html" target="_blank">Intro to HTML</a></li>
     <li><a href="Responsive_Web/index.html" target="_blank">Resposive Web Fix</a></li>
-    <li><a href="responsive/index.html" target="_blank">Responsive</a></li>
+    <li><a href="Final_Project/index.html" target="_blank">Final Project</a></li>
 </ul>    
